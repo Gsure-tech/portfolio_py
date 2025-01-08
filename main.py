@@ -25,5 +25,11 @@ st.write(content2)
 
 col3, col4 = st.columns(2)
 
+df = pandas.read_csv("data.csv", sep=";")
+
+with col3:
+    for index, row in df.iterrows():
+        st.header(row["title"])
+
 
 
