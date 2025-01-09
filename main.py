@@ -40,6 +40,6 @@ with col4:
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
-        st.write(f"[Source Code]({row['url']}")
+        st.write(f"[Source Code]({row['url']})")
 
 
