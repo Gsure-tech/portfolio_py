@@ -9,7 +9,8 @@ password="pgno dkrh usyp rjyo"
 receiver = "abdulganiyu9023@gmail.com"
 context = ssl.create_default_context()
 
-message = """
+message = """\
+Subject: Hi!
 Hi!
 How are you?
 Bye!
